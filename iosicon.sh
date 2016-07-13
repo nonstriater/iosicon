@@ -30,8 +30,25 @@ if [[ ! -e ${SOURCE_FILE} ]]; then
 fi
 DEST_DIR="${ROOT_DIR}/ios-icon"
 mkdir -p "${DEST_DIR}"
-ICON_ARRAY_NAME=("Icon-29.png" "Icon-29@2x.png" "Icon-40.png" "Icon-40@2x.png" "Icon-87.png" "Icon.png" "Icon@2x.png" "Icon-76.png" "Icon-76@2x.png" "Icon-60@2x.png" "Icon-60@3x.png")
-ICON_ARRAY_SIZE=("29" "58" "40" "80" "87" "57" "114" "76" "152" "120" "180")
+ICON_ARRAY_NAME=("Icon-29.png" "Icon-29@2x.png" "Icon-29@3x.png"
+                 "Icon-40.png" "Icon-40@2x.png" "Icon-40@3x.png"
+                 "Icon-57.png" "Icon-57@2x.png"
+                 "Icon-60@2x.png" "Icon-60@3x.png"
+
+                 "Icon-50.png" "Icon-50@2x.png"
+                 "Icon-72.png" "Icon-72@2x.png"
+                 "Icon-76.png" "Icon-76@2x.png"
+                 "Icon-167.png")
+
+ICON_ARRAY_SIZE=("29" "58" "87"
+                 "40" "80" "120"
+                 "57" "114"
+                 "120" "180"
+
+                 "50" "100"
+                 "72" "144"
+                 "76" "152"
+                 "167")
 
 
 #sips starting
